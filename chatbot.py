@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from openai import AsyncOpenAI
 from agents import Agent, Runner, OpenAIChatCompletionsModel, set_tracing_disabled
 import os
-
+# load environment variables from .env file
 load_dotenv()
 
 set_tracing_disabled(True)
