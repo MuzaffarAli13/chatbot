@@ -1,5 +1,5 @@
 import chainlit as cl
-from chatbot.main import myAgent
+from chatbot import myAgent
 import asyncio
 
 @cl.on_chat_start

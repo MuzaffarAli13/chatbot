@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
-from agents import Agent, Runner, OpenAIChatCompletionsModel, AsyncOpenAI, set_tracing_disabled
+from openai import AsyncOpenAI
+from agents import Agent, Runner, OpenAIChatCompletionsModel, set_tracing_disabled
 import os
-import asyncio
 
 load_dotenv()
 
