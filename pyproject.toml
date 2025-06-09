@@ -15,6 +15,10 @@ dependencies = [
 
 [project.scripts]
 chatbot = "chatbot.bot:main"
+"scripts": {
+    "start":"main.py"
+    
+}
 
 [build-system]
 requires = ["hatchling"]

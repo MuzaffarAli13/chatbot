@@ -7,7 +7,6 @@ import asyncio
 async def chat_start():
     await cl.Message("Hello How I can Help you?").send()
 
-# This function is called when a new message is received
 @cl.on_message
 async def main(message: cl.Message):
     user_input = message.content
